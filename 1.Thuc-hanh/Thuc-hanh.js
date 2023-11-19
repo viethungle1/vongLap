@@ -53,14 +53,3 @@
 // sout = sout + "</table>";
 // document.write(sout);
 
-let emptyBox;
-emptyBox = "<table border='1' width='300' cellspacing='0' cellpadding='3'>"
-for (i=1;i<=10;i++) {
-    emptyBox=emptyBox+ "<tr>";
-    for (j=1; j<=10; j++) {
-        emptyBox=emptyBox + "<td>" +i+ "x" +j+ "=" +i*j+ "</td>";
-    }
-    emptyBox=emptyBox+ "</tr>";
-}
-emptyBox=emptyBox + "</table>";
-document.write(emptyBox);
